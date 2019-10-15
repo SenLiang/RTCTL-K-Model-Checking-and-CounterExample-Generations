@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MCTK2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java" line="632" />
+    <bookmark url="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ATLsK/ATLsK_ModelCheckAlg.java" line="1541" />
+    <bookmark url="file://$PROJECT_DIR$/src/swing/EditorJPanel.java" line="67" />
+    <bookmark url="file://$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java" line="543" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ba9b806-7656-4bff-aa46-748c707a2688" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/PARSERS/SPC.g" beforeDir="false" afterPath="$PROJECT_DIR$/PARSERS/SPC.g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PARSERS/original_parsers/SPC.g" beforeDir="false" afterPath="$PROJECT_DIR$/PARSERS/original_parsers/SPC.g" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/Env.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/Env.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/smv/SMVLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/smv/SMVLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/InitSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/InitSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/InternalSpecLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/InternalSpecLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPC.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPC.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPCLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPCLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPCParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPCParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/module/Module.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/module/Module.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/module/ModuleWithStrongFairness.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/module/ModuleWithStrongFairness.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/Spec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/Spec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecAgentIdentifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecAgentIdentifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecBDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ATLsK/ATLsK_ModelCheckAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ATLsK/ATLsK_ModelCheckAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/LTL/LTLModelCheckAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/LTL/LTLModelCheckAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/MCTKANTLRFileStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/MCTKANTLRFileStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTLK/RTCTLKModelCheckAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTLK/RTCTLKModelCheckAlg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/CtrlJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/CtrlJPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/EditorJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/EditorJPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/GraphThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/IndexJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/IndexJFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/KeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/KeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/SetFont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/SetFont.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/SetGraphThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/SetGraphThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/VerifyJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/VerifyJPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/ViewGraphThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/bit_transmission.smv" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/bit_transmission.smv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/bit_transmission_actions.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/dc3.smv" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/dc3.smv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter10_with_spec.ord" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter10_with_spec.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter12_with_spec.ord" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter12_with_spec.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter2_with_spec.ord" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter2_with_spec.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter40_with_spec.ord" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter40_with_spec.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter8_with_spec.ord" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/games_tc/arbiter8_with_spec.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/counter.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase1.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase2.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase3.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase4.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase5.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase6.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase7.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/legacy/testcase8.fds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/pci.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/simple_mc.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test.smv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/traffic.smv" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/traffic.smv" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/PARSERS/backup/" />
+    <ignored path="$PROJECT_DIR$/PARSERS/output/" />
+    <ignored path="$PROJECT_DIR$/lib/backup/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MCTK2_new$AlgorithmRunnerMain.coverage" NAME="AlgorithmRunnerMain Coverage Results" MODIFIED="1529556248673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MCTK2_new$Main.coverage" NAME="Main Coverage Results" MODIFIED="1530331211278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>swing.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Statistic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/swing/Statistic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/swing/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CounterExampleException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/old_lib/mc/CounterExampleException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thesis_Experiment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/Thesis_Experiment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="149" column="26" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#RTCTLsTestMwOven#0;class#Thesis_Experiment#0" />
+                <element signature="method#RTCTLsCheckTraffic#0;class#Thesis_Experiment#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlgorithmRunnerMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87">
+              <caret line="764" column="23" selection-start-line="764" selection-start-column="23" selection-end-line="764" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#AlgorithmRunnerMain#0" />
+                <element signature="method#simpleCheckDeadlock#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#simpleCheckInvariance#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#simpleCheckTempEntail#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#simpleCheckReact#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#ctlCheck#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#rtctlkCheck#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#rtctlCheck#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#ltlCheck#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#testCheck#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#AtlskCheckZero#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#AtlskCheckOne#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#AtlskCheckTwo#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#AtlskCheckThree#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#AtlskCheckTraffic#0;class#AlgorithmRunnerMain#0" />
+                <element signature="method#AtlskCheckDC#0;class#AlgorithmRunnerMain#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>atlADD</find>
+      <find>atladd</find>
+      <find>read</find>
+      <find>readsmv</find>
+      <find>Garbage collection</find>
+      <find>recoverFromMismatchedToken</find>
+      <find>System</find>
+      <find>System.out</find>
+      <find>exce</find>
+      <find>activateErrorListeners</find>
+      <find>ret</find>
+      <find>line</find>
+      <find>TesterVector</find>
+      <find>Tester</find>
+      <find>with</find>
+      <find>ATL</find>
+      <find>3</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testcases/mwOven_spec.smv" />
+        <option value="$PROJECT_DIR$/src/test/TestLoadSMV.java" />
+        <option value="$PROJECT_DIR$/src/test/TestBDD.java" />
+        <option value="$PROJECT_DIR$/src/test/OpenURLDemo.java" />
+        <option value="$PROJECT_DIR$/src/swing/TestProperties.java" />
+        <option value="$PROJECT_DIR$/src/swing/config.properties" />
+        <option value="$PROJECT_DIR$/src/swing/Property.java" />
+        <option value="$PROJECT_DIR$/src/swing/EditorJPanel.java" />
+        <option value="$PROJECT_DIR$/testcases/mwOven.smv" />
+        <option value="$PROJECT_DIR$/src/swing/IndexJFrame.java" />
+        <option value="$PROJECT_DIR$/src/swing/SetFont.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/LTL/LTLModelCheckAlg.java" />
+        <option value="$PROJECT_DIR$/src/test/ArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/smv/eval/AbstractBinaryOperator.java" />
+        <option value="$PROJECT_DIR$/src/net/sf/javabdd/JTLVJavaFactory.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/Operator.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTLK/RTCTLKModelCheckAlg.java" />
+        <option value="$PROJECT_DIR$/testcases/traffic.smv" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/ATLsK_ModelCheckAlg.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ATLsK/GraphExplainATLsK.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/GraphExplainATLsK.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/ViewerExplainATLsK.java" />
+        <option value="$PROJECT_DIR$/PARSERS/SPC.g" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPC.tokens" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPCLexer.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/InternalSpecLanguage.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/InitSpec.java" />
+        <option value="$PROJECT_DIR$/src/swing/KeyWord.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/MCTKANTLRFileStream.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/core/spec/SPCParser.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecExp.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/Spec.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecBDD.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecRange.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecAgentIdentifier.java" />
+        <option value="$PROJECT_DIR$/testcases/dc3.smv" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/module/Module.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/module/ModuleWithStrongFairness.java" />
+        <option value="$PROJECT_DIR$/testcases/dc3-n=23.smv" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/env/Env.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ATLsK/ATLsK_ModelCheckAlg.java" />
+        <option value="$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/ViewerExplainRTCTLs.java" />
+        <option value="$PROJECT_DIR$/src/swing/SetGraphThread.java" />
+        <option value="$PROJECT_DIR$/src/swing/CtrlJPanel.java" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/AlgRunnerThread.java" />
+        <option value="$PROJECT_DIR$/src/swing/VerifyJPanel.java" />
+        <option value="$PROJECT_DIR$/testcases/bit_transmission.smv" />
+        <option value="$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/RTCTL_STAR_ModelCheckAlg.java" />
+        <option value="$PROJECT_DIR$/src/swing/Statistic.java" />
+        <option value="$PROJECT_DIR$/src/test/Thesis_Experiment.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-168" />
+    <option name="y" value="293" />
+    <option name="width" value="1939" />
+    <option name="height" value="940" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jtlv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jtlv" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jtlv" type="462c0819:PsiDirectoryNode" />
+              <item name="old_lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jtlv" type="462c0819:PsiDirectoryNode" />
+              <item name="old_lib" type="462c0819:PsiDirectoryNode" />
+              <item name="mc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MCTK2-RTCTLs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MCTK2-RTCTLs" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="MCTK2-Performance" type="cbb8eebc:String" user="MCTK2-Performance" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="MCTK2-Performance" type="cbb8eebc:String" user="MCTK2-Performance" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="MCTK2-Performance" type="cbb8eebc:String" user="MCTK2-Performance" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="edu/wis/jtlv" type="cbb8eebc:String" user="edu/wis/jtlv" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="MCTK2-Performance" type="cbb8eebc:String" user="MCTK2-Performance" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="edu/wis/jtlv" type="cbb8eebc:String" user="edu/wis/jtlv" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="MCTK2-Performance" type="cbb8eebc:String" user="MCTK2-Performance" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="net/sf/javabdd" type="cbb8eebc:String" user="net/sf/javabdd" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="setOpaque&#9;PSI&#9;JAVA://java.awt.peer.WindowPeer#setOpaque&#10;getLanguage&#9;PSI&#9;JAVA://edu.wis.jtlv.env.core.spec.InternalSpec#getLanguage&#10;Spec&#9;PSI&#9;JAVA://edu.wis.jtlv.env.spec.SpecExp&#10;MCTKANTLR&#9;PSI&#9;JAVA://edu.wis.jtlv.lib.mc.MCTKANTLRFileStream&#10;tree&#9;PSI&#9;JAVA://swing.TextEditor#tree&#10;coupl&#9;PSI&#9;JAVA://edu.wis.jtlv.env.Env#all_couples&#10;couple&#9;PSI&#9;JAVA://edu.wis.jtlv.env.Env.JTLVBDDManagerPairing#search_couple&#10;Env&#9;FILE&#9;file://E:/ideajava/MCTK2-new/src/edu/wis/jtlv/env/Env.java&#10;M&#9;FILE&#9;file://E:/ideajava/MCTK2-new/src/edu/wis/jtlv/lib/mc/MCTKANTLRFileStream.java&#10;rtctl&#9;PSI&#9;JAVA://test.ModelCheckingTest#rtctlkCheck&#10;SPECIFICATIONS&#9;PSI&#9;JAVA://edu.wis.jtlv.env.Env#all_specifications_string" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MCTK2_ATL" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\MCTK2\MCTK2-new\lib" />
+      <recent name="F:\MCTK2\MCTK2-new\src\swing\Icons" />
+      <recent name="F:\MCTK2\MCTK2-new\src\swing" />
+      <recent name="F:\MCTK2\MCTK2-new\property" />
+      <recent name="E:\ideajava\MCTK2-new\testcases" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="edu.wis.jtlv.lib.mc.RTCTL_STAR" />
+      <recent name="swing" />
+      <recent name="edu.wis.jtlv.lib.mc.ATLsK" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MCTK2\MCTK2-Performance\testcases" />
+      <recent name="F:\MCTK2\MCTK2-Performance\src\edu\wis\jtlv\lib\mc" />
+      <recent name="F:\MCTK2\MCTK2-new\src\swing" />
+      <recent name="F:\MCTK2\MCTK2-new\src\swing\Icons" />
+      <recent name="F:\MCTK2\MCTK2-new\testcases" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="AlgorithmRunnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.AlgorithmRunnerMain" />
+      <module name="MCTK2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ArrayTest" />
+      <module name="MCTK2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MCTKANTLRFileStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.wis.jtlv.lib.mc.MCTKANTLRFileStream" />
+      <module name="MCTK2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.Main" />
+      <module name="MCTK2" />
+      <option name="VM_PARAMETERS" value="-Xmx2048m" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Thesis_Experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Thesis_Experiment" />
+      <module name="MCTK2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AlgorithmRunnerMain" />
+      <item itemvalue="Application.ArrayTest" />
+      <item itemvalue="Application.Thesis_Experiment" />
+      <item itemvalue="Application.MCTKANTLRFileStream" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Thesis_Experiment" />
+        <item itemvalue="Application.AlgorithmRunnerMain" />
+        <item itemvalue="Application.MCTKANTLRFileStream" />
+        <item itemvalue="Application.ArrayTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ba9b806-7656-4bff-aa46-748c707a2688" name="Default" comment="" />
+      <created>1516710294932</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516710294932</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.44802344" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.4407028" />
+      <window_info id="Palette&#9;" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5113941" side_tool="true" weight="0.5944363" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.04296875" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.5360679" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3280543" />
+      <window_info anchor="right" id="Designer" order="6" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="SciView" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.10300429" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4886059" weight="0.67642754" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34087694" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" x="92" y="92" width="1732" height="856" id="Documentation" order="10" type="FLOATING" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" visible="true" weight="0.0071614585" />
+      <window_info anchor="right" id="Data View" order="8" weight="0.3299356" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="1-The RTCTL*K counterexample has been fully implemented according to the algorithm.&#10;&#10;2- The interface design of MCTK has been readjusted and designed according to the MCTK2.0 interface prototype." />
+    <option name="LAST_COMMIT_MESSAGE" value="1-The RTCTL*K counterexample has been fully implemented according to the algorithm.&#10;&#10;2- The interface design of MCTK has been readjusted and designed according to the MCTK2.0 interface prototype." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="60" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="179" column="23" selection-start-line="179" selection-start-column="23" selection-end-line="179" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="384" column="51" lean-forward="true" selection-start-line="384" selection-start-column="51" selection-end-line="384" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecAgentIdentifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/spec/SpecBDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="185" column="23" selection-start-line="185" selection-start-column="23" selection-end-line="185" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/SetFont.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/dc3-rtctl.smv" />
+    <entry file="file://$PROJECT_DIR$/src/swing/ViewGraphThread.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3.jar!/org/graphstream/graph/implementations/AbstractGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="162" column="19" selection-start-line="162" selection-start-column="19" selection-end-line="162" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/javajdk/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="462" column="11" selection-start-line="462" selection-start-column="11" selection-end-line="462" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javabdd-2.0.jar!/net/sf/javabdd/BDDVarSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5405">
+          <caret line="252" selection-start-line="8" selection-end-line="252" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javabdd-2.0.jar!/net/sf/javabdd/BDD.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="482" column="26" lean-forward="true" selection-start-line="482" selection-start-column="26" selection-end-line="482" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTLK/RTCTLKModelCheckAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/CTL/CTLModelCheckAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ModelCheckAlgI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/module/Module.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="268" column="23" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/MCTKANTLRFileStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/core/smv/schema/SMVDependentRangeVarInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/core/smv/Initiator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2277">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/ATLsK/ATLsK_ModelCheckAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="847">
+          <caret line="1155" column="9" lean-forward="true" selection-start-line="1155" selection-start-column="9" selection-end-line="1155" selection-end-column="9" />
+          <folding>
+            <element signature="e#4179#9728#0" />
+            <element signature="e#9734#15561#0" />
+            <element signature="e#15567#21193#0" />
+            <element signature="e#33430#52644#0" />
+            <element signature="e#52649#52826#0" />
+            <element signature="e#52832#52884#0" />
+            <element signature="e#52832#53013#0" />
+            <element signature="e#53234#53688#0" />
+            <element signature="e#58995#61523#0" />
+            <element signature="e#61616#61886#0" />
+            <element signature="e#61892#63417#0" />
+            <element signature="e#63423#64214#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/Env.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="1033" selection-start-line="1033" selection-end-line="1033" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/BUTest.smv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/dc3.smv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/dc3-n=23.smv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/mwOven.smv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/testMAS.smv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/traffic.smv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3.jar!/org/graphstream/graph/implementations/AdjacencyListGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gs-core-1.3.jar!/org/graphstream/graph/implementations/AbstractElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="330" column="16" selection-start-line="330" selection-start-column="16" selection-end-line="330" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/GraphExplainRTCTLs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/javajdk/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5852">
+          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/javajdk/jre/lib/rt.jar!/sun/java2d/loops/TransformHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/FileOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3575">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/CtrlJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3541">
+          <caret line="296" column="50" selection-start-line="296" selection-start-column="50" selection-end-line="296" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/SetGraphThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="53" column="6" lean-forward="true" selection-start-line="53" selection-start-column="6" selection-end-line="53" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/EditorJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3988">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/KeyWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/module/ModuleWithStrongFairness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/env/module/SMVModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="573" selection-start-line="573" selection-end-line="573" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/mux-sem.smv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javabdd-2.0.jar!/net/sf/javabdd/BDDFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/AlgRunnerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/ViewerExplainRTCTLs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/bit_transmission.smv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/lib/mc/RTCTL_STAR/RTCTL_STAR_ModelCheckAlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="1287" column="27" lean-forward="true" selection-start-line="1287" selection-start-column="27" selection-end-line="1287" selection-end-column="27" />
+          <folding>
+            <element signature="docComment;method#RTCTL_STAR_ModelCheckAlg#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#satBRELEASE#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#satAA#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#NNF#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="docComment;method#getTrueSpec#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#getTrueSpec#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="docComment;method#getFalseSpec#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#getFalseSpec#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="docComment;method#preAlgorithm#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#Swing_doAlgorithm#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#simplifySpecString#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#getRelevantVars#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+            <element signature="method#explainOneGraphNode#0;class#RTCTL_STAR_ModelCheckAlg#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/IndexJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/VerifyJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="788" column="40" selection-start-line="788" selection-start-column="16" selection-end-line="788" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/Statistic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/wis/jtlv/old_lib/mc/CounterExampleException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Thesis_Experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="149" column="26" lean-forward="true" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#RTCTLsTestMwOven#0;class#Thesis_Experiment#0" />
+            <element signature="method#RTCTLsCheckTraffic#0;class#Thesis_Experiment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/AlgorithmRunnerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="764" column="23" selection-start-line="764" selection-start-column="23" selection-end-line="764" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#AlgorithmRunnerMain#0" />
+            <element signature="method#simpleCheckDeadlock#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#simpleCheckInvariance#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#simpleCheckTempEntail#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#simpleCheckReact#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#ctlCheck#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#rtctlkCheck#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#rtctlCheck#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#ltlCheck#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#testCheck#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#AtlskCheckZero#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#AtlskCheckOne#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#AtlskCheckTwo#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#AtlskCheckThree#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#AtlskCheckTraffic#0;class#AlgorithmRunnerMain#0" />
+            <element signature="method#AtlskCheckDC#0;class#AlgorithmRunnerMain#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MCTK2:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MCTK2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

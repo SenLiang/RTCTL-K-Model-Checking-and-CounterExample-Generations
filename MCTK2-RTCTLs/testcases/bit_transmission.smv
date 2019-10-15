@@ -1,0 +1,51 @@
+MODULE Sender(envAct, recAct)
+VAR
+    bit : {0,1};
+    ack : boolean;
+    Act : {sb0,sb1,none};
+    tick: 0..5;
+INIT !ack;
+--Sender's protocol
+  TRANS (bit=0 & !ack) -> (Act=sb0);
+  TRANS (bit=1 & !ack) -> (Act=sb1);
+  TRANS ack -> (Act=none);
+--Sender's evolution function
+ASSIGN
+  next(ack) := case
+    (!ack & recAct=sendack & (envAct=SR | envAct=rec)) : TRUE;
+    TRUE : ack;
+    esac;
+    init(bit)  := 0;
+    next(bit) := case
+                  (bit=0 & tick=0) : 1;
+                  (bit=1 & tick=0) : 0;
+                  TRUE : bit;
+                  esac;
+    init(tick)  := 5;
+    next(tick) := case
+                    tick >0  : tick - 1;
+                    tick =0  : 5;
+                    TRUE     : tick;
+                    esac;
+
+MODULE Receiver(envAct, sndAct)
+VAR
+   state : {empty, r0, r1};
+   Act : {none, sendack};
+INIT state=empty;
+--Receiver's protocol
+  TRANS (state=empty) -> (Act=none);
+  TRANS (state=r0 | state=r1) -> (Act=sendack);
+--Receiver's evolution function
+ ASSIGN
+  next(state) := case
+   (sndAct=sb0 & state=empty & (envAct=SR | envAct=snd)) : r0;
+   (sndAct=sb1 & state=empty & (envAct=SR | envAct=snd)) : r1;
+   TRUE : state;
+  esac;
+
+MODULE main
+VAR
+    Act : {snd, rec, SR, none};
+    sender : Sender(Act, receiver.Act);
+    receiver : Receiver(Act, sender.Act);

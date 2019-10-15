@@ -1,0 +1,28 @@
+MODULE main
+VAR
+  coin1 : boolean;
+  coin2 : boolean;
+  coin3 : boolean;
+  dc1 : DC(coin1, coin2, dc2.said, dc3.said);
+  dc2 : DC(coin2, coin3, dc1.said, dc3.said);
+  dc3 : DC(coin3, coin1, dc1.said, dc2.said);
+  INIT (dc1.paid + dc2.paid + dc3.paid)<=1   ;
+  --INIT (!dc1.paid & !dc2.paid & !dc3.paid)|(dc1.paid & !dc2.paid & !dc3.paid)
+    --  |(!dc1.paid & dc2.paid & !dc3.paid)|(!dc1.paid & dc2.paid & !dc3.paid);
+  TRANS next(coin1)=coin1 &
+      next(coin2)=coin2 &
+      next(coin3)=coin3;
+
+--SPEC !dc1.paid -> AG ((!dc1.paid & !dc2.paid & !dc3.paid)| (dc2.paid | dc3.paid));
+--SPEC (AX coin1) | (AX coin2) | (AX coin3);
+--SPEC !E[TRUE U coin1];
+
+
+MODULE DC(coin_self, coin_left, said1, said2)
+VAR
+  paid : boolean;
+  said : boolean;
+ASSIGN
+  init(said) := paid xor (coin_self xor coin_left);
+  next(said) := said;
+  next(paid) := paid;

@@ -1,0 +1,43 @@
+MODULE main
+VAR
+    start : boolean;
+    close : boolean;
+    heat : boolean;
+    error : boolean;
+DEFINE
+    s1 := !start & !close & !heat & !error;
+    s2 := start & !close & !heat & error;
+    s3 := !start & close & !heat & !error;
+    s4 := !start & close & heat & !error;
+    s5 := start & close & !heat & error;
+    s6 := start & close & !heat & !error;
+    s7 := start & close & heat & !error;
+
+INIT s1;
+
+TRANS
+    (s1 & next(s2)) |
+    (s1 & next(s3)) |
+    (s2 & next(s5)) |
+    (s3 & next(s1)) |
+    (s3 & next(s6)) |
+    (s4 & next(s1)) |
+    (s4 & next(s3)) |
+    (s4 & next(s4)) |
+    (s5 & next(s2)) |
+    (s5 & next(s3)) |
+    (s6 & next(s7)) |
+    (s7 & next(s4))
+    ;
+
+--JUSTICE start & close & !error;
+
+--SPECIFICATIONS
+--SPEC !E[TRUE U (start & close & heat & !error)];
+--SPEC !EG ( (!start & !close & !heat & !error) |  (start & !close & !heat & error) | (start & close & !heat & error) );
+--LTLSPEC !G !heat;
+--SPEC (!EG ( (!start & !close & !heat & !error) |  (start & !close & !heat & error) | (start & close & !heat & error) )) | !EG !heat;
+--ATL*SPEC A G(start -> A F heat);
+--ATL*SPEC ! E F(!close & start & E((F heat) & (G error)));
+--ATL*SPEC A G( (!close & start) -> A((G !heat) | (F !error)) );
+--END

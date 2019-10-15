@@ -1,0 +1,75 @@
+MODULE main
+DEFINE
+  t1 := 120;
+  t2 := 5;
+VAR
+    nsLight : {RED, YELLOW, GREEN};
+    ewLight : {RED, YELLOW, GREEN};
+
+    tickMove    : 0..t1;
+    tickYellow  : 0..t2;
+
+ASSIGN
+init(nsLight)   := RED;
+init(ewLight)   := GREEN;
+init(tickMove)  := t1;
+init(tickYellow):= t2;
+
+--  NS:                                 |   EW:
+
+--  R (120 sec) -> R ->   G (10 sec)    |   G (120 sec) -> Y (5 sec) ->   R (120 sec)
+-- / \                   |              |   |                            |
+--  |                   \ /             |   |                           \ /
+--  |------------------- Y (5 sec)      |   |--------------------------- R
+--The idea is to have a moving counter from 120 -> 0 while we're in the states of GREEN or RED
+--and another counter 5 -> 0, I called it tickYellow, to make sure the transition from GREEN to
+-- YELLOW is smooth and less dangerous!
+--https://stackoverflow.com/questions/29777977/traffic-light-in-nusmv
+
+next(nsLight) := case
+                    (nsLight = RED & ewLight = GREEN & tickMove = 0)        : RED;
+                    (nsLight = RED & ewLight = YELLOW & tickYellow = 0)     : GREEN;
+                    (nsLight = GREEN & ewLight = RED & tickMove = 0)        : YELLOW;
+                    (nsLight = YELLOW & ewLight = RED & tickYellow = 0)     : RED;
+                    TRUE                                                    : nsLight;
+                esac;
+
+next(ewLight) := case
+                    (ewLight = GREEN & nsLight = RED & tickMove = 0)        : YELLOW;
+                    (ewLight = YELLOW & nsLight = RED & tickYellow = 0)     : RED;
+                    (ewLight = RED & nsLight = GREEN & tickMove = 0)        : RED;
+                    (ewLight = RED & nsLight = YELLOW & tickYellow = 0)     : GREEN;
+                    TRUE                                                    : ewLight;
+                esac;
+
+next(tickMove) := case
+                    tickMove > 0 & ewLight != YELLOW & nsLight != YELLOW        : tickMove - 1;
+                    tickMove = 0                                                : t1;
+                    TRUE                                                        : tickMove;
+                    esac;
+
+next(tickYellow) := case
+                    tickYellow > 0  & (ewLight = YELLOW | nsLight = YELLOW)     : tickYellow - 1;
+                    tickYellow = 0                                              : t2;
+                    TRUE                                                        : tickYellow;
+                    esac;
+
+--SPEC ABF 10..126 nsLight=GREEN;
+--SPEC ABF 10..127 nsLight=GREEN;
+--SPEC ABG 1000..1270 nsLight=GREEN;
+--SPEC AG (ewLight=GREEN -> E[ewLight=RED BU 10..127 ewLight=GREEN])
+--SPEC AF ewLight=GREEN;
+--SPEC AF nsLight=GREEN;
+--SPEC AG !(ewLight=GREEN & nsLight=GREEN);
+--SPEC AG !(ewLight=GREEN & ewLight=RED);
+--LTLSPEC G [0,12] nsLight=GREEN;
+
+-- specification
+--SPEC AG !(nsRed = TRUE & nsYellow = TRUE)
+--SPEC AG !(nsGreen = TRUE & nsRed = TRUE)
+--SPEC AG !(nsGreen = TRUE & ewGreen = TRUE)
+--SPEC AG !(nsYellow = TRUE & ewYellow = TRUE)
+--SPEC AG !(nsRed = TRUE & ewRed = TRUE)
+--SPEC AG (nsRed = TRUE | nsYellow = TRUE | nsGreen = TRUE | ewRed = TRUE | ewYellow = TRUE | ewGreen = TRUE)
+--LTLSPEC F nsGreen = TRUE
+--LTLSPEC F ewGreen = TRUE

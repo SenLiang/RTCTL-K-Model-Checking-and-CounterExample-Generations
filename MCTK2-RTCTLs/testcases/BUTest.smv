@@ -1,0 +1,24 @@
+MODULE main
+VAR
+   rangeValue :0..20;
+    a:1..4;
+ASSIGN
+   init(rangeValue):=0;
+   next(rangeValue):=case
+                rangeValue<=14:rangeValue+1;
+                rangeValue=15 :10;
+                TRUE : rangeValue;
+             esac;
+
+             next(a):= case
+                rangeValue<=5:1;
+                rangeValue<=10:2;
+                rangeValue<15:3;
+                TRUE : 4;
+            esac;
+
+    --CTLSPEC AF a=2;
+   --CTLSPEC ABG 0..10 a=20;
+   --CTLSPEC ABF 0..6 a=10;
+   --CTLSPEC A [a=2 BU 6..12 a=2 ];
+   --CTLSPEC E [a=1 U a=2];

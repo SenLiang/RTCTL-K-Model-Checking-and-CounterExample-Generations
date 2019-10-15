@@ -1,0 +1,57 @@
+AGENT main
+VAR
+  coin1 : boolean; coin2 : boolean; coin3 : boolean; coin4 : boolean;
+  coin5 : boolean; coin6 : boolean; coin7 : boolean; coin8 : boolean;
+  coin9 : boolean; coin10 : boolean; coin11 : boolean; coin12 : boolean;
+  coin13: boolean;coin14 : boolean; coin15 : boolean;coin16 : boolean;
+  coin17 : boolean; coin18: boolean; coin19 : boolean; coin20 : boolean;
+  coin21: boolean;  coin22 : boolean; coin23 : boolean;
+INVISIBLEVAR
+  dc1 : DC(coin1, coin2, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc2 : DC(coin2, coin3, dc1.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc3 : DC(coin3, coin4, dc1.said, dc2.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc4 : DC(coin4, coin5, dc1.said, dc2.said, dc3.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc5 : DC(coin5, coin6, dc1.said, dc2.said, dc3.said, dc4.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc6 : DC(coin6, coin7, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc7 : DC(coin7, coin8, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc8 : DC(coin8, coin9, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc9 : DC(coin9, coin10, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc10 : DC(coin10, coin11, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc11 : DC(coin11, coin12, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc12.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc12 : DC(coin12, coin13, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc13.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc13 : DC(coin13, coin14, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc14 : DC(coin14, coin15, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc15 : DC(coin15, coin16, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc16 : DC(coin16, coin17, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said, dc14.said, dc15.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc17 : DC(coin17, coin18, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc18 : DC(coin18, coin19, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc17.said, dc19.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc19 : DC(coin19, coin20, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc20.said, dc21.said, dc22.said, dc23.said);
+  dc20 : DC(coin20, coin21, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc21.said, dc22.said, dc23.said);
+  dc21 : DC(coin21, coin22, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc22.said, dc23.said);
+  dc22 : DC(coin22, coin23, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc23.said);
+  dc23 : DC(coin23, coin1, dc1.said, dc2.said, dc3.said, dc4.said, dc5.said, dc6.said, dc7.said, dc8.said, dc9.said, dc10.said, dc11.said, dc12.said, dc13.said,dc14.said, dc15.said, dc16.said, dc17.said, dc18.said, dc19.said, dc20.said, dc21.said, dc22.said);
+  
+  INIT (dc1.paid + dc2.paid + dc3.paid + dc4.paid + dc5.paid + dc6.paid+ dc7.paid + dc8.paid+ dc9.paid + dc10.paid + dc11.paid + dc12.paid + dc13.paid+ dc14.paid + dc15.paid + dc16.paid + dc17.paid + dc18.paid+ dc19.paid + dc20.paid + dc21.paid + dc22.paid + dc23.paid)<=1;
+
+TRANS next(coin1)=coin1 & next(coin2)=coin2 & next(coin3)=coin3 & next(coin4)=coin4
+     &next(coin5)=coin5 & next(coin6)=coin6 & next(coin7)=coin7 & next(coin8)=coin8
+    &next(coin9)=coin9 & next(coin10)=coin10 & next(coin11)=coin11 & next(coin12)=coin12 & next(coin13)=coin13    
+     &next(coin14)=coin14 & next(coin15)=coin15 & next(coin16)=coin16 & next(coin17)=coin17 & next(coin18)=coin18   
+     &next(coin19)=coin19 & next(coin20)=coin20 & next(coin21)=coin21 & next(coin22)=coin22 & next(coin23)=coin23;  
+AGENT DC(VISIBLE coin_self, VISIBLE coin_left, VISIBLE said1, VISIBLE said2, VISIBLE said3, VISIBLE said4,VISIBLE said5, VISIBLE said6, VISIBLE said7, VISIBLE said8, VISIBLE said9, VISIBLE said10, VISIBLE said11,VISIBLE said12,VISIBLE said13, VISIBLE said14, VISIBLE said15,VISIBLE said16,VISIBLE said17,VISIBLE said18, VISIBLE said19, VISIBLE said20,VISIBLE said21,VISIBLE said22)
+VAR
+  paid : boolean;
+  said : boolean;
+ASSIGN
+  init(said) := paid xor (coin_self xor coin_left);
+  next(said) := said;
+  next(paid) := paid;
+
+RTCTL*SPEC !dc1.paid ->
+  ((!dc1.paid & !dc2.paid & !dc3.paid& !dc4.paid& !dc5.paid& !dc6.paid& !dc7.paid& !dc8.paid& !dc9.paid & !dc10.paid & !dc11.paid & !dc12.paid & !dc13.paid& !dc14.paid & !dc15.paid & !dc16.paid & !dc17.paid & !dc18.paid& !dc19.paid & !dc20.paid & !dc21.paid & !dc22.paid & !dc23.paid) |
+  ((dc2.paid | dc3.paid| dc4.paid| dc5.paid| dc6.paid| dc7.paid| dc8.paid| dc9.paid | dc10.paid| dc11.paid| dc12.paid| dc13.paid| dc14.paid | dc15.paid| dc16.paid| dc17.paid| dc18.paid| dc19.paid | dc20.paid| dc21.paid| dc22.paid| dc23.paid)
+ ))
+ ; 
+
+
+

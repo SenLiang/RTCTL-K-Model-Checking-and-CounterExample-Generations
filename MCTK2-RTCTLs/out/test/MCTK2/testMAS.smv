@@ -1,0 +1,18 @@
+MODULE main
+VAR
+	v1 	 : boolean;
+	v2   : boolean;
+	agent1 : Agent(v1, v2);
+	agent2 : Agent(v2, v1);
+
+MODULE module1(m1arg1)
+VAR
+	x1 : boolean;
+	x2 : boolean;
+
+AGENT Agent(arg1, VISIBLE arg2)
+INVISIBLEVAR
+  x : boolean;
+VAR
+  y : module1(arg2);
+  z : boolean;
